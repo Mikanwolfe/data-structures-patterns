@@ -22,13 +22,16 @@ void FibonacciSequence::advance()
 	// Check for whether or not there is a limit
 	//  An exception should be thrown if it is exceeded.
 
+	unsigned long lNext;
+
 	try
 	{
 		if ((fPosition <= fLimit) || (fLimit == 0))
 		{
 			fPosition++;
-			fCurrent = fCurrent + fPrevious;
+			lNext = fCurrent + fPrevious;
 			fPrevious = fCurrent;
+			fCurrent = lNext;
 		}
 		else
 		{
@@ -46,12 +49,19 @@ const unsigned long& FibonacciSequence::getLimit() const
 	return fLimit;
 }
 
+// This method has to "restart" the sequence object
+// I tried ssending a new object back but it broke. I wonder if there's a better
+// way to do this
 FibonacciSequenceIterator FibonacciSequence::begin()
 {
-	return FibonacciSequenceIterator(*this, 1);
+	fPrevious = 0;
+	fCurrent = 1;
+	fPosition = 1;
+	return FibonacciSequenceIterator(*this);
+	
 }
 
 FibonacciSequenceIterator FibonacciSequence::end()
 {
-	return FibonacciSequenceIterator(*this, fLimit);
+	return FibonacciSequenceIterator(*this, fLimit+1);
 }

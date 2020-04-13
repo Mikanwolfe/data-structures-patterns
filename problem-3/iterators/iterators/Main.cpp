@@ -33,7 +33,7 @@ int main( int argc, char* argv[] )
     }
     
     // test problem 2 as well as begin() and end() of problem 1
-        
+
     // C++11 range loop
 
     cout << "Fibonacci sequence 1..20:" << endl;

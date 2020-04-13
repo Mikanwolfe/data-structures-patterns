@@ -16,6 +16,7 @@ const unsigned long& FibonacciSequenceIterator::operator*() const
 FibonacciSequenceIterator& FibonacciSequenceIterator::operator++()
 {
 	fIndex++;
+	fSequenceObject.advance();
 	return *this;
 }
 
@@ -23,6 +24,7 @@ FibonacciSequenceIterator FibonacciSequenceIterator::operator++(int)
 {
 	FibonacciSequenceIterator temp = *this;
 	fIndex++;
+	fSequenceObject.advance();
 	return temp;
 }
 
@@ -38,16 +40,10 @@ bool FibonacciSequenceIterator::operator!=(const FibonacciSequenceIterator& aOth
 
 FibonacciSequenceIterator FibonacciSequenceIterator::begin() const
 {
-	FibonacciSequenceIterator result = *this;
-	result.fIndex = 0;
-
-	return result;
+	return fSequenceObject.begin();
 }
 
 FibonacciSequenceIterator FibonacciSequenceIterator::end() const
 {
-	FibonacciSequenceIterator result = *this;
-	result.fIndex = fSequenceObject.getLimit();
-
-	return result;
+	return fSequenceObject.end();;
 }
