@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e9416900b3221951915d6266bdbfbc41" kind="dir">
+    <compoundname>C:/repos/data-structures-patterns/problem-4</compoundname>
+    <innerdir refid="dir_c46713c86cde143c8dd25c46f98c9742">C:/repos/data-structures-patterns/problem-4/12b-io</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/repos/data-structures-patterns/problem-4/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classifstream12" kind="class"><name>ifstream12</name>
+    <member refid="classifstream12_1adfc6381fb51350d29ab6c5676c755764" kind="variable"><name>fIStream</name></member>
+    <member refid="classifstream12_1a952c54b7911bc0b2cd457efa10a98dcf" kind="variable"><name>fBuffer</name></member>
+    <member refid="classifstream12_1a5fcb89f23e325defc2f30332630ac2f1" kind="variable"><name>fBufferSize</name></member>
+    <member refid="classifstream12_1a914fc7101f80b138d3fa501d5c4088e0" kind="variable"><name>fByteIndex</name></member>
+    <member refid="classifstream12_1af3c8a91765d10752d1a4b2ddcb6ddf7e" kind="variable"><name>fBitIndex</name></member>
+    <member refid="classifstream12_1ae49b9d1b51365b8debaabd61f96c47d1" kind="variable"><name>fBytesAvailable</name></member>
+    <member refid="classifstream12_1a3b8466518b2ae6b8716f47c2b35ea05d" kind="function"><name>init</name></member>
+    <member refid="classifstream12_1aef029ebd45143b149d467d1dff66c09b" kind="function"><name>reload</name></member>
+    <member refid="classifstream12_1a24373e6f4b5d7e18cf66c8a2239674c7" kind="function"><name>readBit</name></member>
+    <member refid="classifstream12_1a17cd4ec03c62e15dc66e7d5c4f930942" kind="function"><name>ifstream12</name></member>
+    <member refid="classifstream12_1aadaf9da643f8da51210c09c414f5524c" kind="function"><name>~ifstream12</name></member>
+    <member refid="classifstream12_1a6241c307f0ecddc999b8a22fb070ae0a" kind="function"><name>open</name></member>
+    <member refid="classifstream12_1abe51618c9e16996d3eab22f5f90ae899" kind="function"><name>close</name></member>
+    <member refid="classifstream12_1a2dafb678a29f8bf136cc8f43cac5338f" kind="function"><name>isOpen</name></member>
+    <member refid="classifstream12_1a958e7fdcc98a7e418232b238ec836918" kind="function"><name>good</name></member>
+    <member refid="classifstream12_1a016c74d95e3611ebc36252cf4f082500" kind="function"><name>eof</name></member>
+    <member refid="classifstream12_1a0fed2c8e98ceaf065c0a8d0f120f4e37" kind="function"><name>operator bool</name></member>
+    <member refid="classifstream12_1a3a8c6e2c23e7bca47bca1390cc6b9855" kind="function"><name>operator&gt;&gt;</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="ifstream12_8cpp" kind="file"><name>ifstream12.cpp</name>
+  </compound>
+  <compound refid="ifstream12_8h" kind="file"><name>ifstream12.h</name>
+  </compound>
+  <compound refid="_main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_305a4b8e608d6575c8e05885c09e82e8" kind="dir"><name>C:/repos/data-structures-patterns/problem-4/12b-io/12b-io</name>
+  </compound>
+  <compound refid="dir_c46713c86cde143c8dd25c46f98c9742" kind="dir"><name>C:/repos/data-structures-patterns/problem-4/12b-io</name>
+  </compound>
+  <compound refid="dir_bc19d59aabea15c2ca02a79962136ccd" kind="dir"><name>C:/repos/data-structures-patterns</name>
+  </compound>
+  <compound refid="dir_e9416900b3221951915d6266bdbfbc41" kind="dir"><name>C:/repos/data-structures-patterns/problem-4</name>
+  </compound>
+  <compound refid="dir_cab490122218f292b5834cc7c3ada949" kind="dir"><name>C:/repos</name>
+  </compound>
+</doxygenindex>

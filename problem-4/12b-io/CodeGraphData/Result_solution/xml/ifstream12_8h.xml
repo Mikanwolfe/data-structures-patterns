@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="ifstream12_8h" kind="file">
+    <compoundname>ifstream12.h</compoundname>
+    <includes local="no">fstream</includes>
+    <includedby refid="ifstream12_8cpp" local="yes">C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp</includedby>
+    <includedby refid="_main_8cpp" local="yes">C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/Main.cpp</includedby>
+    <incdepgraph>
+      <node id="63">
+        <label>fstream</label>
+      </node>
+      <node id="62">
+        <label>C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h</label>
+        <link refid="ifstream12.h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="66">
+        <label>C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/Main.cpp</label>
+        <link refid="_main_8cpp"/>
+      </node>
+      <node id="65">
+        <label>C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp</label>
+        <link refid="ifstream12_8cpp"/>
+      </node>
+      <node id="64">
+        <label>C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h</label>
+        <link refid="ifstream12.h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classifstream12" prot="public">ifstream12</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>COS30008,<sp/>Problem<sp/>Set<sp/>4,<sp/>2020</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classifstream12" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classifstream12" kindref="compound">ifstream12</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11" refid="classifstream12_1adfc6381fb51350d29ab6c5676c755764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ifstream<sp/><ref refid="classifstream12_1adfc6381fb51350d29ab6c5676c755764" kindref="member">fIStream</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classifstream12_1a952c54b7911bc0b2cd457efa10a98dcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classifstream12_1a952c54b7911bc0b2cd457efa10a98dcf" kindref="member">fBuffer</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>input<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classifstream12_1a5fcb89f23e325defc2f30332630ac2f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a5fcb89f23e325defc2f30332630ac2f1" kindref="member">fBufferSize</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>input<sp/>buffer<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16" refid="classifstream12_1a914fc7101f80b138d3fa501d5c4088e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a914fc7101f80b138d3fa501d5c4088e0" kindref="member">fByteIndex</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>current<sp/>byte<sp/>index</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classifstream12_1af3c8a91765d10752d1a4b2ddcb6ddf7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1af3c8a91765d10752d1a4b2ddcb6ddf7e" kindref="member">fBitIndex</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>current<sp/>bit<sp/>index<sp/>(can<sp/>be<sp/>negative)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classifstream12_1ae49b9d1b51365b8debaabd61f96c47d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1ae49b9d1b51365b8debaabd61f96c47d1" kindref="member">fBytesAvailable</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>bytes<sp/>available<sp/>in<sp/>fBuffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a3b8466518b2ae6b8716f47c2b35ea05d" kindref="member">init</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>initialize<sp/>data<sp/>members</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1aef029ebd45143b149d467d1dff66c09b" kindref="member">reload</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>fetch<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a24373e6f4b5d7e18cf66c8a2239674c7" kindref="member">readBit</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>read<sp/>a<sp/>Bit,<sp/>returns<sp/>0<sp/>of<sp/>1,<sp/>or<sp/>-1<sp/>for<sp/>EOF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classifstream12_1a17cd4ec03c62e15dc66e7d5c4f930942" kindref="member">ifstream12</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*aFileName<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>aBufferSize<sp/>=<sp/>128<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classifstream12_1aadaf9da643f8da51210c09c414f5524c" kindref="member">~ifstream12</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a6241c307f0ecddc999b8a22fb070ae0a" kindref="member">open</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>aFileName<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1abe51618c9e16996d3eab22f5f90ae899" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a2dafb678a29f8bf136cc8f43cac5338f" kindref="member">isOpen</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a958e7fdcc98a7e418232b238ec836918" kindref="member">good</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classifstream12_1a016c74d95e3611ebc36252cf4f082500" kindref="member">eof</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35" refid="classifstream12_1a0fed2c8e98ceaf065c0a8d0f120f4e37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()<sp/>const<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>conversion<sp/>operator:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>-<sp/>allows<sp/>ifstream12<sp/>to<sp/>be<sp/>used<sp/>as<sp/>bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="classifstream12_1a016c74d95e3611ebc36252cf4f082500" kindref="member">eof</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>-<sp/>returns<sp/>true<sp/>if<sp/>ifstream12<sp/>is<sp/>eof</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classifstream12" kindref="compound">ifstream12</ref>&amp;<sp/><ref refid="classifstream12_1a3a8c6e2c23e7bca47bca1390cc6b9855" kindref="member">operator&gt;&gt;</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>a12BitValue<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h"/>
+  </compounddef>
+</doxygen>

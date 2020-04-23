@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classifstream12" kind="class" prot="public">
+    <compoundname>ifstream12</compoundname>
+    <includes refid="ifstream12_8h" local="no">ifstream12.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classifstream12_1adfc6381fb51350d29ab6c5676c755764" prot="private" static="no" mutable="no">
+        <type>std::ifstream</type>
+        <definition>std::ifstream ifstream12::fIStream</definition>
+        <argsstring></argsstring>
+        <name>fIStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="11" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifstream12_1a952c54b7911bc0b2cd457efa10a98dcf" prot="private" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ifstream12::fBuffer</definition>
+        <argsstring></argsstring>
+        <name>fBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="13" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifstream12_1a5fcb89f23e325defc2f30332630ac2f1" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t ifstream12::fBufferSize</definition>
+        <argsstring></argsstring>
+        <name>fBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="14" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifstream12_1a914fc7101f80b138d3fa501d5c4088e0" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t ifstream12::fByteIndex</definition>
+        <argsstring></argsstring>
+        <name>fByteIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="16" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifstream12_1af3c8a91765d10752d1a4b2ddcb6ddf7e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ifstream12::fBitIndex</definition>
+        <argsstring></argsstring>
+        <name>fBitIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="17" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifstream12_1ae49b9d1b51365b8debaabd61f96c47d1" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t ifstream12::fBytesAvailable</definition>
+        <argsstring></argsstring>
+        <name>fBytesAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="18" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classifstream12_1a3b8466518b2ae6b8716f47c2b35ea05d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ifstream12::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="20" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1aef029ebd45143b149d467d1dff66c09b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ifstream12::reload</definition>
+        <argsstring>()</argsstring>
+        <name>reload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="21" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a24373e6f4b5d7e18cf66c8a2239674c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ifstream12::readBit</definition>
+        <argsstring>()</argsstring>
+        <name>readBit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="22" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classifstream12_1a17cd4ec03c62e15dc66e7d5c4f930942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ifstream12::ifstream12</definition>
+        <argsstring>(const char *aFileName=nullptr, size_t aBufferSize=128)</argsstring>
+        <name>ifstream12</name>
+        <param>
+          <type>const char *</type>
+          <declname>aFileName</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>aBufferSize</declname>
+          <defval>128</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="25" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1aadaf9da643f8da51210c09c414f5524c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ifstream12::~ifstream12</definition>
+        <argsstring>()</argsstring>
+        <name>~ifstream12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="26" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a6241c307f0ecddc999b8a22fb070ae0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ifstream12::open</definition>
+        <argsstring>(const char *aFileName)</argsstring>
+        <name>open</name>
+        <param>
+          <type>const char *</type>
+          <declname>aFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="28" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1abe51618c9e16996d3eab22f5f90ae899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ifstream12::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="29" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a2dafb678a29f8bf136cc8f43cac5338f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ifstream12::isOpen</definition>
+        <argsstring>() const </argsstring>
+        <name>isOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="31" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a958e7fdcc98a7e418232b238ec836918" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ifstream12::good</definition>
+        <argsstring>() const </argsstring>
+        <name>good</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="32" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="54" bodyend="57"/>
+        <referencedby refid="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_main_8cpp" startline="11" endline="40">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a016c74d95e3611ebc36252cf4f082500" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ifstream12::eof</definition>
+        <argsstring>() const </argsstring>
+        <name>eof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="33" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.cpp" bodystart="59" bodyend="62"/>
+        <referencedby refid="classifstream12_1a0fed2c8e98ceaf065c0a8d0f120f4e37" compoundref="ifstream12_8h" startline="35" endline="38">operator bool</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a0fed2c8e98ceaf065c0a8d0f120f4e37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifstream12::operator bool</definition>
+        <argsstring>() const </argsstring>
+        <name>operator bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="35" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="35" bodyend="38"/>
+        <references refid="classifstream12_1a016c74d95e3611ebc36252cf4f082500" compoundref="ifstream12_8cpp" startline="59" endline="62">eof</references>
+      </memberdef>
+      <memberdef kind="function" id="classifstream12_1a3a8c6e2c23e7bca47bca1390cc6b9855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifstream12" kindref="compound">ifstream12</ref> &amp;</type>
+        <definition>ifstream12&amp; ifstream12::operator&gt;&gt;</definition>
+        <argsstring>(size_t &amp;a12BitValue)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>a12BitValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>std::basic_ifstream&lt; char &gt;</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ifstream12</label>
+        <link refid="classifstream12"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fIStream</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::ios_base</label>
+      </node>
+      <node id="2">
+        <label>std::ifstream</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" line="9" column="1" bodyfile="C:/repos/data-structures-patterns/problem-4/12b-io/12b-io/ifstream12.h" bodystart="8" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classifstream12_1abe51618c9e16996d3eab22f5f90ae899" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>close</name></member>
+      <member refid="classifstream12_1a016c74d95e3611ebc36252cf4f082500" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>eof</name></member>
+      <member refid="classifstream12_1af3c8a91765d10752d1a4b2ddcb6ddf7e" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>fBitIndex</name></member>
+      <member refid="classifstream12_1a952c54b7911bc0b2cd457efa10a98dcf" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>fBuffer</name></member>
+      <member refid="classifstream12_1a5fcb89f23e325defc2f30332630ac2f1" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>fBufferSize</name></member>
+      <member refid="classifstream12_1a914fc7101f80b138d3fa501d5c4088e0" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>fByteIndex</name></member>
+      <member refid="classifstream12_1ae49b9d1b51365b8debaabd61f96c47d1" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>fBytesAvailable</name></member>
+      <member refid="classifstream12_1adfc6381fb51350d29ab6c5676c755764" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>fIStream</name></member>
+      <member refid="classifstream12_1a958e7fdcc98a7e418232b238ec836918" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>good</name></member>
+      <member refid="classifstream12_1a17cd4ec03c62e15dc66e7d5c4f930942" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>ifstream12</name></member>
+      <member refid="classifstream12_1a3b8466518b2ae6b8716f47c2b35ea05d" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>init</name></member>
+      <member refid="classifstream12_1a2dafb678a29f8bf136cc8f43cac5338f" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>isOpen</name></member>
+      <member refid="classifstream12_1a6241c307f0ecddc999b8a22fb070ae0a" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>open</name></member>
+      <member refid="classifstream12_1a0fed2c8e98ceaf065c0a8d0f120f4e37" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>operator bool</name></member>
+      <member refid="classifstream12_1a3a8c6e2c23e7bca47bca1390cc6b9855" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classifstream12_1a24373e6f4b5d7e18cf66c8a2239674c7" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>readBit</name></member>
+      <member refid="classifstream12_1aef029ebd45143b149d467d1dff66c09b" prot="private" virt="non-virtual"><scope>ifstream12</scope><name>reload</name></member>
+      <member refid="classifstream12_1aadaf9da643f8da51210c09c414f5524c" prot="public" virt="non-virtual"><scope>ifstream12</scope><name>~ifstream12</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
