@@ -1,3 +1,1 @@
-﻿  ifstream12.cpp
-F:\repos\data-structures-patterns\problem-4\12b-io\12b-io\ifstream12.cpp(35,35): warning C4244: '=': conversion from 'std::streamsize' to 'size_t', possible loss of data
-  12b-io.vcxproj -> F:\repos\data-structures-patterns\problem-4\12b-io\Debug\12b-io.exe
+﻿  12b-io.vcxproj -> C:\repos\data-structures-patterns\problem-4\12b-io\Debug\12b-io.exe
