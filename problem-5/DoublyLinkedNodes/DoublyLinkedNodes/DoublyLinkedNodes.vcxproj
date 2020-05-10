@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoublyLinkedNode.h" />
+    <ClInclude Include="DoublyLinkedNodeIterator.h" />
     <ClInclude Include="DoublyLinkedNodeIteratorPS5.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

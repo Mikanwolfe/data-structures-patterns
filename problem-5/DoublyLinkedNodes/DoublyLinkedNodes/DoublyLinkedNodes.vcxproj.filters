@@ -26,5 +26,8 @@
     <ClInclude Include="DoublyLinkedNode.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="DoublyLinkedNodeIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
