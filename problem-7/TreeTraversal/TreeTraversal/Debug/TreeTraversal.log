@@ -1,0 +1,30 @@
+﻿  Main.cpp
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\List.h(157,21): warning C4018: '<': signed/unsigned mismatch
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\List.h(156): message : while compiling class template member function 'const T &List<T>::operator [](size_t) const'
+          with
+          [
+              T=const NTree<std::string,3> *
+          ]
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\Queue.h(39): message : see reference to function template instantiation 'const T &List<T>::operator [](size_t) const' being compiled
+          with
+          [
+              T=const NTree<std::string,3> *
+          ]
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\Queue.h(14): message : see reference to class template instantiation 'List<T>' being compiled
+          with
+          [
+              T=const NTree<std::string,3> *
+          ]
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\NTree.h(210): message : see reference to class template instantiation 'Queue<const NTree<std::string,3> *>' being compiled
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\NTree.h(207): message : while compiling class template member function 'void NTree<std::string,3>::traverseBreadthFirst(const TreeVisitor<T> &) const'
+          with
+          [
+              T=std::string
+          ]
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\Main.cpp(119): message : see reference to function template instantiation 'void NTree<std::string,3>::traverseBreadthFirst(const TreeVisitor<T> &) const' being compiled
+          with
+          [
+              T=std::string
+          ]
+F:\repos\data-structures-patterns\problem-7\TreeTraversal\TreeTraversal\Main.cpp(107): message : see reference to class template instantiation 'NTree<std::string,3>' being compiled
+  TreeTraversal.vcxproj -> F:\repos\data-structures-patterns\problem-7\TreeTraversal\Debug\TreeTraversal.exe
