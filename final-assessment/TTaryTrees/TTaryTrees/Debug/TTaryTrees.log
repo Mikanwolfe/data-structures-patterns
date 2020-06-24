@@ -1,0 +1,3 @@
+﻿  Main.cpp
+Main.obj : error LNK2001: unresolved external symbol "public: static class TTree<int> TTree<int>::NIL" (?NIL@?$TTree@H@@2V1@A)
+C:\repos\data-structures-patterns\final-assessment\TTaryTrees\Debug\TTaryTrees.exe : fatal error LNK1120: 1 unresolved externals
