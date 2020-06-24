@@ -29,5 +29,8 @@
     <ClInclude Include="TTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LinearVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

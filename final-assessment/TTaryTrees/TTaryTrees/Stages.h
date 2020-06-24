@@ -4,7 +4,7 @@
 #pragma once
 
 // enable problem 1
-#define P1
+//#define P1
 
 // enable problem 3
-//#define P3
+#define P3

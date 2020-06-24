@@ -19,14 +19,12 @@ void runP1()
     string s2( "B" );
     string s3( "C" );
     string s4( "D" );
-    int a = 5;
-
-    TTree<int> treeA( a );
-    //TTree<string> treeA( s1 );
-    //TTree<string>* treeB = new TTree<string>( s2 );
-    //TTree<string>* treeC = new TTree<string>( s3 );
-    //TTree<string>* treeD = new TTree<string>( s4 );
-    /*
+    
+    TTree<string> treeA( s1 );
+    TTree<string>* treeB = new TTree<string>( s2 );
+    TTree<string>* treeC = new TTree<string>( s3 );
+    TTree<string>* treeD = new TTree<string>( s4 );
+    
     cout << "The payload of treeA: " << treeA.getKey() << endl;
     
     try
@@ -98,7 +96,7 @@ void runP1()
     }
     
     cout << "Self assigned used." << endl;
-    */
+    
 }
 
 #endif
